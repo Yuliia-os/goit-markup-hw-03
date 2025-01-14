@@ -54,10 +54,16 @@ ul,ol{
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
+
 .page-nav-list:hover,.page-nav-list:focus {
     color: #404bbf;
 }
-.page-nav-list-item-studio:hover, .page-nav-list-item-studio:active{
+.page-nav-list-item-studio{
+    color: #2e2f42;
+}
+.page-nav-list-item-studio:hover,
+.page-nav-list-item-studio:active,
+.page-nav-list-item-studio:focus{
    color: #404bbf;
 text-decoration: underline;
 }
@@ -68,6 +74,9 @@ a{
     Letter Spacing: 4%;
     Decoration: Underline;
 }
+.contacts{
+    font-style: normal;
+}
 .contacts-nav-list-item{
     font-weight: 400;
     font-size: 16px;
@@ -75,9 +84,13 @@ a{
     letter-spacing: 0.02em;
     color: #434455;
 }
-.contacts-nav-list-item:hover{
+.contacts-nav-list-info{
+    color: #434455;
+}
+.contacts-nav-list-info:hover, .contacts-nav-list-info:focus{
     color: #404bbf;
 }
+
 .main-baner{
  
     background: #2e2f42;
@@ -91,7 +104,7 @@ a{
     color: #fff;
 }
 .main-button {
-    font-family: "Roboto", sans-serif
+    font-family: "Roboto", sans-serif;
     cursor: pointer;
     font-weight: 500;
     font-size: 16px;
@@ -145,7 +158,7 @@ font-weight: 400;
     color: #2e2f42;
 }
 .team-list{
-background: #FFFFFF;
+background-color: #FFFFFF;
 }
 .team-list-item{
 
@@ -200,7 +213,7 @@ width: 360;
         color: #2e2f42;
 }
 
-.portfolio-item-decription {
+.portfolio-item-category {
     font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
