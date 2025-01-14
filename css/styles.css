@@ -1,10 +1,41 @@
+:root {
+    --iris: #4d5ae5;
+    --ocean: #404bbf;
+    --navy-blue: #2e2f42;
+    --green: #31d0aa;
+    --slate: #434455;
+    --light-slate: #8e8f99;
+    --cornflower: #e7e9fc;
+    --cloud: #f4f4fd;
+    --navy-blue-modal: rgba(46, 47, 66, 0.4);
+    --grey: rgba(46, 47, 66, 0.7);
+    --white: #fff;
+    --dairy: #fcfcfc;
+}
+:root {
+    --font-family: "Roboto", sans-serif;
+    --second-family: "Raleway", sans-serif;
+}
 body {
     front-famili: "Roboto", sans-serif;
     color: #434455;
-    background-color:#ffff ;
+    background-color:#fff ;
 }
 buton {
     cursor: pointer;
+    Family: "Roboto";
+    Weight: Medium;
+    Size: 16px;
+    Line Height: 24px;
+    Letter Spacing: 4%;
+
+}
+.page-header{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 .page-logo {
     font-family: "Raleway", sans-serif;
@@ -13,7 +44,7 @@ buton {
     line-height: 1.16667;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: red;
+    color: #2e2f42;
 }
 .page-nav-list{
     font-family: "Roboto", sans-serif;
@@ -24,5 +55,13 @@ buton {
     color: #2e2f42;
 }
 .page-nav{
-    background-color: red;
+    
+}
+a{
+    Family: "Roboto"
+    Weight: Regular;
+    Size: 12px;
+    Line Height: 16px;
+    Letter Spacing: 4%;
+    Decoration: Underline;
 }
