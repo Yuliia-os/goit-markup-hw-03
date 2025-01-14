@@ -54,18 +54,17 @@ ul,ol{
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-
 .page-nav-list:hover,.page-nav-list:focus {
     color: #404bbf;
 }
-.page-nav-list-item-studio{
+.page-nav-list-item-studio .page-nav-linc{
     color: #2e2f42;
 }
-.page-nav-list-item-studio:hover,
-.page-nav-list-item-studio:focus{
+.page-nav-list-item-studio .page-nav-linc:hover,
+.page-nav-list-item-studio .page-nav-linc:focus{
    color: #404bbf;
 }
-.page-nav-list-item-studio:active{
+.page-nav-list-item-studio .page-nav-linc:active{
     color: #404bbf;
         text-decoration: underline;
 }
