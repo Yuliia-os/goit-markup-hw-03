@@ -11,24 +11,20 @@
     --grey: rgba(46, 47, 66, 0.7);
     --white: #fff;
     --dairy: #fcfcfc;
-}
-:root {
     --font-family: "Roboto", sans-serif;
     --second-family: "Raleway", sans-serif;
 }
+
 body {
     front-famili: "Roboto", sans-serif;
     color: #434455;
     background-color:#fff ;
 }
-buton {
-    cursor: pointer;
-    Family: "Roboto";
-    Weight: Medium;
-    Size: 16px;
-    Line Height: 24px;
-    Letter Spacing: 4%;
-
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style-type: none;
 }
 .page-header{
     font-weight: 500;
@@ -44,8 +40,12 @@ buton {
     line-height: 1.16667;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    color:#4d5ae5;;
+}
+.logo-bl {
     color: #2e2f42;
 }
+
 .page-nav-list{
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -54,8 +54,15 @@ buton {
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-.page-nav{
-    
+.page-nav-list:hover,.page-nav-list:focus {
+    ccolor: #404bbf;
+}
+.page-nav-list-item:hover, .page-nav-list-item:active{
+   color: #404bbf;
+}
+.page-nav-linc1:active {
+    color: #404bbf;
+    text-decoration: underline;
 }
 a{
     Family: "Roboto"
@@ -64,4 +71,27 @@ a{
     Line Height: 16px;
     Letter Spacing: 4%;
     Decoration: Underline;
+}
+.main-button {
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    background-color: #4d5ae5;
+}
+.main-button:hover, .main-button:focus{
+    color: #fff;
+    background-color: #404bbf;
+}
+.contacts-nav-list-item{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.contacts-nav-list-item:hover{
+    color: #404bbf;
 }
