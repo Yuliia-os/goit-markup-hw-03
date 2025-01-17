@@ -184,6 +184,7 @@ gap: 40px;
     border-radius: 4px;
     padding: 16px 32px;
     height: 56px;
+    min-width: 169px;
 }
 
 .main-button:hover,
@@ -203,7 +204,11 @@ gap: 40px;
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
-
+.features{
+    padding-top: 120px;
+    padding-bottom: 120px;
+    
+}
 .feature-list{
     display: flex;
     gap: 24px;
@@ -231,6 +236,9 @@ font-weight: 400;
 }
 .team{
     background: #f4f4fd;
+    padding-top: 120px;
+    padding-bottom: 120px;
+        
 }
 .team-title{
     font-weight: 700;
@@ -280,6 +288,8 @@ text-align: center;
 color: #434455;
 }
 .portfolio {
+    padding-top: 120px;
+    padding-bottom: 120px;
 
 }
 
